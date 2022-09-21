@@ -1,5 +1,5 @@
 {
-    "name": "I2S-4MFlash-32",
+    "name": "I2S-4MFlash-16",
     "version": "2.1186",
     "home_assistant_domain": "slim_player",
     "funding_url": "https://esphome.io/guides/supporters.html",

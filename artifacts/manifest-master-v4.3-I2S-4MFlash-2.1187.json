@@ -1,0 +1,12 @@
+{
+    "name": "I2S-4MFlash-16",
+    "version": "2.1187",
+    "home_assistant_domain": "slim_player",
+    "funding_url": "https://esphome.io/guides/supporters.html",
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "parts": null
+        }
+    ]
+}

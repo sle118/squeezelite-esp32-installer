@@ -1,0 +1,740 @@
+[
+    {
+        "name": "SqueezeAmp.32.1207.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log<br><<~EOD",
+        "url": "",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1207.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21207.zip",
+        "release_details": {
+            "version": "2.1207",
+            "idf": "v4.3",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "SqueezeAmp.32.1188.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log 751d683 muse called abort() w/o necessity (can silently ignore RMT errors) - release (2022-09-18T00:13:57-07:00) <philippe44> b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1188.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-2.1188.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1188.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-2.1188.zip",
+        "release_details": {
+            "version": "2.1188",
+            "idf": "v4.0",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "SqueezeAmp.32.1187.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44> 60bf802 change build number in ... 4.3 - release (2022-09-12T15:05:57-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1187.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-2.1187.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1187.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-2.1187.zip",
+        "release_details": {
+            "version": "2.1187",
+            "idf": "v4.0",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "SqueezeAmp.16.1207.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log<br><<~EOD",
+        "url": "",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1207.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21207.zip",
+        "release_details": {
+            "version": "2.1207",
+            "idf": "v4.3",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1207-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "SqueezeAmp.16.1188.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log 751d683 muse called abort() w/o necessity (can silently ignore RMT errors) - release (2022-09-18T00:13:57-07:00) <philippe44> b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1188.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-2.1188.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1188.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-2.1188.zip",
+        "release_details": {
+            "version": "2.1188",
+            "idf": "v4.0",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1188-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "SqueezeAmp.16.1187.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44> 60bf802 change build number in ... 4.3 - release (2022-09-12T15:05:57-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1187.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-2.1187.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1187.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-2.1187.zip",
+        "release_details": {
+            "version": "2.1187",
+            "idf": "v4.0",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1187-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "SqueezeAmp.16.1186.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44> 60bf802 change build number in ... 4.3 - release (2022-09-12T15:05:57-07:00) <philippe44> f7c9f08 release (2022-09-12T14:46:06-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1186.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-2.1186.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1186.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-2.1186.zip",
+        "release_details": {
+            "version": "2.1186",
+            "idf": "v4.0",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1186-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1186-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1186-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1186-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1186-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "Muse.16.1207.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log<br><<~EOD",
+        "url": "",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1207.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21207.zip",
+        "release_details": {
+            "version": "2.1207",
+            "idf": "v4.3",
+            "platform": "Muse",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-Muse-2.1207-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1207-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1207-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1207-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1207-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "Muse.16.1188.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log 751d683 muse called abort() w/o necessity (can silently ignore RMT errors) - release (2022-09-18T00:13:57-07:00) <philippe44> b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1188.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-2.1188.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1188.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-2.1188.zip",
+        "release_details": {
+            "version": "2.1188",
+            "idf": "v4.0",
+            "platform": "Muse",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-Muse-2.1188-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1188-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1188-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1188-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1188-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "Muse.16.1187.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44> 60bf802 change build number in ... 4.3 - release (2022-09-12T15:05:57-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1187.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-2.1187.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1187.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-2.1187.zip",
+        "release_details": {
+            "version": "2.1187",
+            "idf": "v4.0",
+            "platform": "Muse",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-Muse-2.1187-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1187-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1187-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1187-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1187-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "Muse.16.1186.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44> 60bf802 change build number in ... 4.3 - release (2022-09-12T15:05:57-07:00) <philippe44> f7c9f08 release (2022-09-12T14:46:06-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1186.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-2.1186.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1186.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-2.1186.zip",
+        "release_details": {
+            "version": "2.1186",
+            "idf": "v4.0",
+            "platform": "Muse",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-Muse-2.1186-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1186-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1186-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1186-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-Muse-2.1186-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "I2S-4MFlash.32.1207.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log<br><<~EOD",
+        "url": "",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1207.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21207.zip",
+        "release_details": {
+            "version": "2.1207",
+            "idf": "v4.3",
+            "platform": "I2S-4MFlash",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "I2S-4MFlash.32.1188.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log 751d683 muse called abort() w/o necessity (can silently ignore RMT errors) - release (2022-09-18T00:13:57-07:00) <philippe44> b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1188.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-2.1188.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1188.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-2.1188.zip",
+        "release_details": {
+            "version": "2.1188",
+            "idf": "v4.0",
+            "platform": "I2S-4MFlash",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "I2S-4MFlash.32.1187.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44> 60bf802 change build number in ... 4.3 - release (2022-09-12T15:05:57-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1187.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-2.1187.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1187.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-2.1187.zip",
+        "release_details": {
+            "version": "2.1187",
+            "idf": "v4.0",
+            "platform": "I2S-4MFlash",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "I2S-4MFlash.32.1186.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44> 60bf802 change build number in ... 4.3 - release (2022-09-12T15:05:57-07:00) <philippe44> f7c9f08 release (2022-09-12T14:46:06-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1186.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-2.1186.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1186.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-2.1186.zip",
+        "release_details": {
+            "version": "2.1186",
+            "idf": "v4.0",
+            "platform": "I2S-4MFlash",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1186-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1186-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1186-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1186-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1186-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "I2S-4MFlash.16.1207.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log<br><<~EOD",
+        "url": "",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1207.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21207.zip",
+        "release_details": {
+            "version": "2.1207",
+            "idf": "v4.3",
+            "platform": "I2S-4MFlash",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1207-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "I2S-4MFlash.16.1188.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log 751d683 muse called abort() w/o necessity (can silently ignore RMT errors) - release (2022-09-18T00:13:57-07:00) <philippe44> b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1188.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-2.1188.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1188.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-2.1188.zip",
+        "release_details": {
+            "version": "2.1188",
+            "idf": "v4.0",
+            "platform": "I2S-4MFlash",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1188-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    },
+    {
+        "name": "I2S-4MFlash.16.1187.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log b000bbd limit CSPOT buffering of decoded audio for less plops & lag - release (2022-09-17T10:00:56-07:00) <philippe44> 6f50483 add TJPGD directory - release (2022-09-16T23:04:12-07:00) <philippe44> b48e9fe just create empty cspot_config at first boot - release (2022-09-16T22:52:24-07:00) <philippe44> eb6b99d no workaround to use ROM version of TJPGD (loosing 5kB of flash) (2022-09-15T14:05:16-07:00) <philippe44> 405c774 use TJPGD in flash (2022-09-15T13:47:32-07:00) <philippe44> eab321d release (2022-09-13T23:53:42-07:00) <philippe44> 50475e9 release (2022-09-13T23:52:49-07:00) <philippe44> a1e15ab Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-13T23:51:29-07:00) <philippe44> 7e733f4 Was using wrong protobuf - release (2022-09-13T23:51:26-07:00) <philippe44> 3e35937 syntax error in yaml - release (2022-09-12T20:12:52-07:00) <philippe44> 2d9dd14 exclude 32 bits build for Muse (2022-09-12T19:55:34-07:00) <philippe44> 698cc70 release (2022-09-12T19:46:25-07:00) <philippe44> 6e67606 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-09-12T19:45:53-07:00) <philippe44> f6f2f61 Allow AudioChunkManager to use PSRAM stack - release (2022-09-12T19:45:46-07:00) <philippe44> 60bf802 change build number in ... 4.3 - release (2022-09-12T15:05:57-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1187.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-2.1187.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1187.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-2.1187.zip",
+        "release_details": {
+            "version": "2.1187",
+            "idf": "v4.0",
+            "platform": "I2S-4MFlash",
+            "branch": "master-v4.3",
+            "bitrate": "16"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-squeezelite.bin",
+                "offset": 1376256,
+                "artifact_relpath": "squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-recovery.bin",
+                "offset": 65536,
+                "artifact_relpath": "recovery.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-ota_data_initial.bin",
+                "offset": 53248,
+                "artifact_relpath": "ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-bootloader.bin",
+                "offset": 4096,
+                "artifact_relpath": "bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-I2S-4MFlash-2.1187-partition-table.bin",
+                "offset": 32768,
+                "artifact_relpath": "partition_table/partition-table.bin"
+            }
+        ]
+    }
+]

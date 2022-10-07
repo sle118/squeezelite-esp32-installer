@@ -1,0 +1,34 @@
+{
+    "name": "SqueezeAmp-16",
+    "version": "2.1187",
+    "home_assistant_domain": "slim_player",
+    "funding_url": "https://esphome.io/guides/supporters.html",
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "parts": [
+                {
+                    "path": "master-v4.3-SqueezeAmp-2.1187-squeezelite.bin",
+                    "offset": "0x150000"
+                },
+                {
+                    "path": "master-v4.3-SqueezeAmp-2.1187-recovery.bin",
+                    "offset": "0x10000"
+                },
+                {
+                    "path": "master-v4.3-SqueezeAmp-2.1187-ota_data_initial.bin",
+                    "offset": "0xd000"
+                },
+                {
+                    "path": "master-v4.3-SqueezeAmp-2.1187-bootloader.bin",
+                    "offset": "0x1000"
+                },
+                {
+                    "path": "master-v4.3-SqueezeAmp-2.1187-partition-table.bin",
+                    "offset": "0x8000"
+                }
+            ]
+        }
+    ],
+    "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1187.json"
+}

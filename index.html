@@ -1,0 +1,196 @@
+
+<head>
+    <meta charset="utf-8" />
+    <title>Squeezelite-ESP32 installer</title>
+    <meta name="description" content="Easily allow users to install Squeezelite-ESP32 firmware on the web." />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="color-scheme" content="dark light" />
+    <style>
+        body {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+                Roboto, Ubuntu, sans-serif;
+            padding: 0;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 12px;
+        }
+
+        h2 {
+            margin-top: 2em;
+        }
+
+        h3 {
+            margin-top: 1.5em;
+        }
+
+        a {
+            color: #03a9f4;
+        }
+
+        .invisible {
+            visibility: hidden;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        esp-web-install-button[install-unsupported] {
+            visibility: inherit;
+        }
+
+        .content pre {
+            max-width: 100%;
+            overflow-y: scroll;
+        }
+
+        .footer {
+            margin-top: 24px;
+            border-top: 1px solid #ccc;
+            padding-top: 24px;
+            text-align: center;
+        }
+
+        .footer .initiative {
+            font-style: italic;
+            margin-top: 16px;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .radios li {
+            list-style: none;
+            line-height: 2em;
+        }
+        .hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333;
+                color: #fff;
+            }
+
+            a {
+                color: #58a6ff;
+            }
+        }
+    </style>
+    <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Squeezelite-ESP32 installer</h1>
+        <p>Select your product</p>
+        <ul class="radios" id="platform">
+        </ul>
+        <p class="button-row" align="center">
+            <esp-web-install-button class="invisible"></esp-web-install-button>
+        </p>
+
+        <div class="footer">
+            <a href="https://github.com/sle118/squeezelite-esp32">Squeezelite-ESP32</a> &mdash;
+            Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
+        </div>
+        <script>
+            platforms = {}
+            function createHtmlList(obj) {
+                var output = "";
+                Object.keys(obj).forEach(function (k) {
+                    if (typeof obj[k] == "object" && obj[k] !== null) {
+                        output += "<li>" + k + "<ul>";
+                        output += createHtmlList(obj[k]);
+                        output += "</ul></li>";
+                    } else {
+                        output += "<li>" + k + " : " + obj[k] + "</li>";
+                    }
+                });
+                return output;
+            }
+            fetch('./artifacts/manifest')
+                .then((response) => response.json())
+                .then((resp) => {
+                    resp.forEach((element) => {
+                        platform = `${element.release_details.platform}`
+                        sub = `${element.release_details.bitrate}(bits) [${element.release_details.branch}]`
+                        if (!platforms[platform]) {
+                            platforms[platform] = {}
+
+                        }
+                        if (!platforms[platform][sub]) {
+                            platforms[platform][sub] = []
+                        }
+
+                        platforms[platform][sub].push({ 'version': element.release_details.version, 'manifest': element.manifest_name, 'description': element.description })
+                    })
+
+
+                    l = document.getElementById("platform")
+                    output = ''
+                    Object.keys(platforms).forEach(function (platform) {
+                        output += `<li>${platform}`;
+                        Object.keys(platforms[platform]).forEach(function (sub) {
+                            output += `<li>${sub}`;
+                            platforms[platform][sub].forEach((elem) => {
+                                output += `<br><label><input type="radio" class="hovertext" data-hover="${elem.description}" name="type" manifest="${elem.manifest}" />Build ${elem.version}</label>`
+                                // output += `<li manifest="${elem.manifest}">Version ${elem.version}<br>${elem.description} </li> `;
+                            })
+                            output += '</li>';
+
+                        })
+                        output += '</li>';
+                    })
+                    l.innerHTML = output
+                    document.querySelectorAll('input[name="type"]').forEach(radio =>
+                        radio.addEventListener("change", () => {
+                            const button = document.querySelector('esp-web-install-button');
+                            button.manifest = `./manifest_${radio.value}.json`;
+                            button.classList.remove('invisible');
+                        }
+                        ));
+                    console.log(platforms)
+                })
+
+
+
+        </script>
+</body>
+
+</html>

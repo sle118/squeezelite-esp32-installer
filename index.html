@@ -167,9 +167,9 @@
                     l = document.getElementById("platform")
                     output = ''
                     Object.keys(platforms).forEach(function (platform) {
-                        output += `<li>${platform}`;
+                        output += `<li><h3>${platform}</h3>`;
                         Object.keys(platforms[platform]).forEach(function (sub) {
-                            output += `<li>${sub}`;
+                            output += `<li><h4>${sub}</h4>`;
                             platforms[platform][sub].forEach((elem) => {
                                 //output += `<br><label><input type="radio" class="hovertext" data-hover="${elem.description}" name="type" manifest="${elem.manifest}" />Build ${elem.version}</label>`
                                 output += `<br><label><input type="radio" description="${elem.description}" name="type" manifest="${elem.manifest}" />Build ${elem.version}</label>`

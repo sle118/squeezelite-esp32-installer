@@ -15,7 +15,6 @@
         }
 
         .content {
-            max-width: 600px;
             margin: 0 auto;
             padding: 12px;
         }
@@ -119,8 +118,11 @@
     <div class="content">
         <h1>Squeezelite-ESP32 installer</h1>
         <p>Select your product</p>
+        <p  id="description"  align="lef">
+        </p>        
         <ul class="radios" id="platform">
         </ul>
+
         <p class="button-row" align="center">
             <esp-web-install-button class="invisible"></esp-web-install-button>
         </p>
@@ -169,7 +171,8 @@
                         Object.keys(platforms[platform]).forEach(function (sub) {
                             output += `<li>${sub}`;
                             platforms[platform][sub].forEach((elem) => {
-                                output += `<br><label><input type="radio" class="hovertext" data-hover="${elem.description}" name="type" manifest="${elem.manifest}" />Build ${elem.version}</label>`
+                                //output += `<br><label><input type="radio" class="hovertext" data-hover="${elem.description}" name="type" manifest="${elem.manifest}" />Build ${elem.version}</label>`
+                                output += `<br><label><input type="radio" description="${elem.description}" name="type" manifest="${elem.manifest}" />Build ${elem.version}</label>`
                                 // output += `<li manifest="${elem.manifest}">Version ${elem.version}<br>${elem.description} </li> `;
                             })
                             output += '</li>';
@@ -183,6 +186,8 @@
                             const button = document.querySelector('esp-web-install-button');
                             button.manifest = `./artifacts/${radio.attributes["manifest"].value}`;
                             button.classList.remove('invisible');
+                            document.getElementById('description').innerHTML =  radio.attributes["description"].value.replace(/\)/g, '\)<br>').replace("### Revision Log","<h4>Revision Log</h3>");
+ 
                         }
                         ));
                     console.log(platforms)

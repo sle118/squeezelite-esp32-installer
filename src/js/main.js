@@ -58,7 +58,7 @@ function populateList(json) {
           <div id="c_${elem.entry}" class="accordion-collapse collapse" aria-labelledby="h${elem.entry}" data-bs-parent="#p${platform}"   style="">
           
           <div class="accordion-body">
-          <esp-web-install-button align = "center"  manifest="${elem.manifest}" ></esp-web-install-button>
+          <esp-web-install-button align = "center"  manifest="artifacts/${elem.manifest}" ></esp-web-install-button>
           <table class="table table-striped table-hover ">
           <thead>
               <tr>

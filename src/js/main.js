@@ -2,7 +2,7 @@
 import '../scss/main.scss';
 import escapeHtml from 'escape-html';
 import { initBootstrap } from "./bootstrap.js";
-
+import 'improv-wifi-sdk';
 const url = 'https://github.com/sle118/squeezelite-esp32/commit/'
 // Loading bootstrap with optional features
 initBootstrap({

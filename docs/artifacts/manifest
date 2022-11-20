@@ -39,7 +39,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.13.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.13-32.json"
     },
     {
         "name": "SqueezeAmp.32.5.master-v4.3",
@@ -81,7 +81,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.5.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.5-32.json"
     },
     {
         "name": "SqueezeAmp.32.1223.master-v4.3",
@@ -123,7 +123,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1223.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1223-32.json"
     },
     {
         "name": "SqueezeAmp.16.13.master-v4.3",
@@ -165,7 +165,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.13.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.13-16.json"
     },
     {
         "name": "SqueezeAmp.16.5.master-v4.3",
@@ -207,7 +207,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.5.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.5-16.json"
     },
     {
         "name": "SqueezeAmp.16.1223.master-v4.3",
@@ -249,7 +249,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1223.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1223-16.json"
     },
     {
         "name": "Muse.16.13.master-v4.3",
@@ -291,7 +291,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-Muse-2.13.json"
+        "manifest_name": "manifest-master-v4.3-Muse-2.13-16.json"
     },
     {
         "name": "Muse.16.5.master-v4.3",
@@ -333,7 +333,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-Muse-2.5.json"
+        "manifest_name": "manifest-master-v4.3-Muse-2.5-16.json"
     },
     {
         "name": "Muse.16.1223.master-v4.3",
@@ -375,7 +375,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-Muse-2.1223.json"
+        "manifest_name": "manifest-master-v4.3-Muse-2.1223-16.json"
     },
     {
         "name": "I2S-4MFlash.32.13.master-v4.3",
@@ -417,7 +417,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.13.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.13-32.json"
     },
     {
         "name": "I2S-4MFlash.32.5.master-v4.3",
@@ -459,7 +459,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.5.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.5-32.json"
     },
     {
         "name": "I2S-4MFlash.32.1223.master-v4.3",
@@ -501,7 +501,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1223.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1223-32.json"
     },
     {
         "name": "I2S-4MFlash.16.13.master-v4.3",
@@ -543,7 +543,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.13.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.13-16.json"
     },
     {
         "name": "I2S-4MFlash.16.5.master-v4.3",
@@ -585,7 +585,7 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.5.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.5-16.json"
     },
     {
         "name": "I2S-4MFlash.16.1223.master-v4.3",
@@ -627,6 +627,6 @@
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1223.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1223-16.json"
     }
 ]

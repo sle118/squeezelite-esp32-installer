@@ -13,7 +13,7 @@ initBootstrap({
 function sortReleases(p1,p2){
   return p1.bits==p2.bits?0:p1.bits<p2.bits?-1:1
 }
-const sanitizer = new Sanitizer();
+
 function getRevisionLine(description) {
   let table = ''
   description.split('\n').forEach(l => {

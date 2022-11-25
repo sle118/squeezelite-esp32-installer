@@ -1,5 +1,47 @@
 [
     {
+        "name": "SqueezeAmp.32.1234.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log\ndc66d9e Bluetooth Source mods (#204) * support legacy bt pairing\r \r * extend bt source support (Fri Nov 25 13:55:01 2022-0500) <wizmo2>\n8462de1 Fix spotify configuration UI- release (Fri Nov 25 13:48:32 2022-0500) <Sebastien L>\n37f48d4 Align versionning in firmware - release (Thu Nov 24 10:07:13 2022-0500) <S\u00e9bastien>\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 24 09:07:45 2022-0500) <Sebastien>\n3144cf5 Change auth methods for pushing (Thu Nov 24 09:07:35 2022-0500) <Sebastien>\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1234.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21234.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1234.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21234.zip",
+        "release_details": {
+            "version": "2.1234",
+            "idf": "v4.3",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1234-squeezelite.bin",
+                "offset": "0x150000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1234-recovery.bin",
+                "offset": "0x10000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1234-ota_data_initial.bin",
+                "offset": "0xd000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1234-bootloader.bin",
+                "offset": "0x1000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1234-partition-table.bin",
+                "offset": "0x8000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
+            }
+        ],
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1234.json"
+    },
+    {
         "name": "SqueezeAmp.32.2.1230.master-v4.3",
         "branch": "master-v4.3",
         "description": "### Revision Log \r\n37f48d4 Align versionning in firmware - release (2022-11-24T10:07:13-05:00) <S\u00e9bastien> \r\nec019f9 Update prebuilt objects [skip actions] (2022-11-24T14:15:09+00:00) <github-actions> \r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24T09:07:45-05:00) <Sebastien> \r\n3144cf5 Change auth methods for pushing (2022-11-24T09:07:35-05:00) <Sebastien> \r\n18cc0ad Update prebuilt objects [skip actions] (2022-11-22T15:28:59+00:00) <github-actions> \r\n78ece49 Update prebuilt objects [skip actions] (2022-11-22T14:39:21+00:00) <github-actions> \r\n9e66a82 Change call to web installer update (2022-11-22T09:35:34-05:00) <S\u00e9bastien> \r\n0e12f7f bypass protobuf generation for now - release (2022-11-19T19:01:47-08:00) <philippe44> \r\n5df5618 mpr121 table init - release (2022-11-19T18:28:33-08:00) <philippe44> \r\nf6630fa release (2022-11-17T17:26:12-08:00) <philippe44> \r\ne2df4b1 chmod on protoc (2022-11-17T17:20:20-08:00) <philippe44> \r\n3172576 update CMake file (2022-11-17T16:36:25-08:00) <philippe44> \r\ne0dd7a5 release (2022-11-17T16:20:16-08:00) <philippe44> \r\n6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-17T14:06:05-08:00) <philippe44> \r\n7e5f27a update cspot (2022-11-17T14:06:00-08:00) <philippe44>",
@@ -84,46 +126,46 @@
         "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1229.json"
     },
     {
-        "name": "SqueezeAmp.32.1227.master-v4.3",
+        "name": "SqueezeAmp.16.1234.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>\ne0dd7a5 release (Thu Nov 17 16:20:16 2022-0800) <philippe44>\n6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 17 14:06:05 2022-0800) <philippe44>\n7e5f27a update cspot (Thu Nov 17 14:06:00 2022-0800) <philippe44>\na81d0e0 fix opus & vorbis last decode (Thu Nov 10 23:05:17 2022-0800) <philippe44>\n6c524cd Implement mpr121 touch sensor capability to GPIO Expanders (#192) Co-authored-by: Andy Boff <gitdev@plek.me.uk> (Sat Oct 22 05:55:04 2022+0100) <Andy Boff>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1227.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21227.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1227.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21227.zip",
+        "description": "### Revision Log\ndc66d9e Bluetooth Source mods (#204) * support legacy bt pairing\r \r * extend bt source support (Fri Nov 25 13:55:01 2022-0500) <wizmo2>\n8462de1 Fix spotify configuration UI- release (Fri Nov 25 13:48:32 2022-0500) <Sebastien L>\n37f48d4 Align versionning in firmware - release (Thu Nov 24 10:07:13 2022-0500) <S\u00e9bastien>\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 24 09:07:45 2022-0500) <Sebastien>\n3144cf5 Change auth methods for pushing (Thu Nov 24 09:07:35 2022-0500) <Sebastien>\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1234.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21234.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1234.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21234.zip",
         "release_details": {
-            "version": "2.1227",
+            "version": "2.1234",
             "idf": "v4.3",
             "platform": "SqueezeAmp",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-squeezelite.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1234-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-recovery.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1234-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-ota_data_initial.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1234-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-bootloader.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1234-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-partition-table.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1234-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1227.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1234.json"
     },
     {
         "name": "SqueezeAmp.16.2.1230.master-v4.3",
@@ -210,46 +252,46 @@
         "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1229.json"
     },
     {
-        "name": "SqueezeAmp.16.1227.master-v4.3",
+        "name": "Muse.16.1234.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>\ne0dd7a5 release (Thu Nov 17 16:20:16 2022-0800) <philippe44>\n6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 17 14:06:05 2022-0800) <philippe44>\n7e5f27a update cspot (Thu Nov 17 14:06:00 2022-0800) <philippe44>\na81d0e0 fix opus & vorbis last decode (Thu Nov 10 23:05:17 2022-0800) <philippe44>\n6c524cd Implement mpr121 touch sensor capability to GPIO Expanders (#192) Co-authored-by: Andy Boff <gitdev@plek.me.uk> (Sat Oct 22 05:55:04 2022+0100) <Andy Boff>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1227.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21227.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1227.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21227.zip",
+        "description": "### Revision Log\ndc66d9e Bluetooth Source mods (#204) * support legacy bt pairing\r \r * extend bt source support (Fri Nov 25 13:55:01 2022-0500) <wizmo2>\n8462de1 Fix spotify configuration UI- release (Fri Nov 25 13:48:32 2022-0500) <Sebastien L>\n37f48d4 Align versionning in firmware - release (Thu Nov 24 10:07:13 2022-0500) <S\u00e9bastien>\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 24 09:07:45 2022-0500) <Sebastien>\n3144cf5 Change auth methods for pushing (Thu Nov 24 09:07:35 2022-0500) <Sebastien>\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1234.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21234.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1234.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21234.zip",
         "release_details": {
-            "version": "2.1227",
+            "version": "2.1234",
             "idf": "v4.3",
-            "platform": "SqueezeAmp",
+            "platform": "Muse",
             "branch": "master-v4.3",
             "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-squeezelite.bin",
+                "name": "master-v4.3-Muse-2.1234-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-recovery.bin",
+                "name": "master-v4.3-Muse-2.1234-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-ota_data_initial.bin",
+                "name": "master-v4.3-Muse-2.1234-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-bootloader.bin",
+                "name": "master-v4.3-Muse-2.1234-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1227-partition-table.bin",
+                "name": "master-v4.3-Muse-2.1234-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1227.json"
+        "manifest_name": "manifest-master-v4.3-Muse-2.1234.json"
     },
     {
         "name": "Muse.16.2.1230.master-v4.3",
@@ -336,46 +378,46 @@
         "manifest_name": "manifest-master-v4.3-Muse-2.1229.json"
     },
     {
-        "name": "Muse.16.1227.master-v4.3",
+        "name": "I2S-4MFlash.32.1234.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>\ne0dd7a5 release (Thu Nov 17 16:20:16 2022-0800) <philippe44>\n6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 17 14:06:05 2022-0800) <philippe44>\n7e5f27a update cspot (Thu Nov 17 14:06:00 2022-0800) <philippe44>\na81d0e0 fix opus & vorbis last decode (Thu Nov 10 23:05:17 2022-0800) <philippe44>\n6c524cd Implement mpr121 touch sensor capability to GPIO Expanders (#192) Co-authored-by: Andy Boff <gitdev@plek.me.uk> (Sat Oct 22 05:55:04 2022+0100) <Andy Boff>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1227.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21227.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1227.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21227.zip",
+        "description": "### Revision Log\ndc66d9e Bluetooth Source mods (#204) * support legacy bt pairing\r \r * extend bt source support (Fri Nov 25 13:55:01 2022-0500) <wizmo2>\n8462de1 Fix spotify configuration UI- release (Fri Nov 25 13:48:32 2022-0500) <Sebastien L>\n37f48d4 Align versionning in firmware - release (Thu Nov 24 10:07:13 2022-0500) <S\u00e9bastien>\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 24 09:07:45 2022-0500) <Sebastien>\n3144cf5 Change auth methods for pushing (Thu Nov 24 09:07:35 2022-0500) <Sebastien>\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1234.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21234.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1234.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21234.zip",
         "release_details": {
-            "version": "2.1227",
+            "version": "2.1234",
             "idf": "v4.3",
-            "platform": "Muse",
+            "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "16"
+            "bitrate": "32"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-Muse-2.1227-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1227-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1227-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1227-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1227-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-Muse-2.1227.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1234.json"
     },
     {
         "name": "I2S-4MFlash.32.2.1230.master-v4.3",
@@ -462,88 +504,88 @@
         "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1229.json"
     },
     {
-        "name": "I2S-4MFlash.32.1227.master-v4.3",
+        "name": "I2S-4MFlash.16.2.1231.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>\ne0dd7a5 release (Thu Nov 17 16:20:16 2022-0800) <philippe44>\n6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 17 14:06:05 2022-0800) <philippe44>\n7e5f27a update cspot (Thu Nov 17 14:06:00 2022-0800) <philippe44>\na81d0e0 fix opus & vorbis last decode (Thu Nov 10 23:05:17 2022-0800) <philippe44>\n6c524cd Implement mpr121 touch sensor capability to GPIO Expanders (#192) Co-authored-by: Andy Boff <gitdev@plek.me.uk> (Sat Oct 22 05:55:04 2022+0100) <Andy Boff>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1227.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21227.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1227.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21227.zip",
+        "description": "### Revision Log 8462de1 Fix spotify configuration UI- release (2022-11-25T13:48:32-05:00) <Sebastien L> 37f48d4 Align versionning in firmware - release (2022-11-24T10:07:13-05:00) <S\u00e9bastien> ec019f9 Update prebuilt objects [skip actions] (2022-11-24T14:15:09+00:00) <github-actions> 5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24T09:07:45-05:00) <Sebastien> 3144cf5 Change auth methods for pushing (2022-11-24T09:07:35-05:00) <Sebastien> 18cc0ad Update prebuilt objects [skip actions] (2022-11-22T15:28:59+00:00) <github-actions> 78ece49 Update prebuilt objects [skip actions] (2022-11-22T14:39:21+00:00) <github-actions> 9e66a82 Change call to web installer update (2022-11-22T09:35:34-05:00) <S\u00e9bastien> 0e12f7f bypass protobuf generation for now - release (2022-11-19T19:01:47-08:00) <philippe44> 5df5618 mpr121 table init - release (2022-11-19T18:28:33-08:00) <philippe44> f6630fa release (2022-11-17T17:26:12-08:00) <philippe44> e2df4b1 chmod on protoc (2022-11-17T17:20:20-08:00) <philippe44> 3172576 update CMake file (2022-11-17T16:36:25-08:00) <philippe44> e0dd7a5 release (2022-11-17T16:20:16-08:00) <philippe44> 6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-17T14:06:05-08:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.2.1231.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-2.1231.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.2.1231.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-2.1231.zip",
         "release_details": {
-            "version": "2.1227",
-            "idf": "v4.3",
+            "version": "2.1231",
+            "idf": "v4.0",
             "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1231-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1231-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1231-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1231-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1231-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1227.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1231.json"
     },
     {
-        "name": "I2S-4MFlash.32.1225.master-v4.3",
+        "name": "I2S-4MFlash.16.1234.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>\ne0dd7a5 release (Thu Nov 17 16:20:16 2022-0800) <philippe44>\n6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 17 14:06:05 2022-0800) <philippe44>\n7e5f27a update cspot (Thu Nov 17 14:06:00 2022-0800) <philippe44>\na81d0e0 fix opus & vorbis last decode (Thu Nov 10 23:05:17 2022-0800) <philippe44>\n6c524cd Implement mpr121 touch sensor capability to GPIO Expanders (#192) Co-authored-by: Andy Boff <gitdev@plek.me.uk> (Sat Oct 22 05:55:04 2022+0100) <Andy Boff>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1225.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21225.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1225.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21225.zip",
+        "description": "### Revision Log\ndc66d9e Bluetooth Source mods (#204) * support legacy bt pairing\r \r * extend bt source support (Fri Nov 25 13:55:01 2022-0500) <wizmo2>\n8462de1 Fix spotify configuration UI- release (Fri Nov 25 13:48:32 2022-0500) <Sebastien L>\n37f48d4 Align versionning in firmware - release (Thu Nov 24 10:07:13 2022-0500) <S\u00e9bastien>\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 24 09:07:45 2022-0500) <Sebastien>\n3144cf5 Change auth methods for pushing (Thu Nov 24 09:07:35 2022-0500) <Sebastien>\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1234.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21234.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1234.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21234.zip",
         "release_details": {
-            "version": "2.1225",
+            "version": "2.1234",
             "idf": "v4.3",
             "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1225-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1225-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1225-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1225-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1225-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1234-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1225.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1234.json"
     },
     {
         "name": "I2S-4MFlash.16.2.1230.master-v4.3",
@@ -586,89 +628,5 @@
             }
         ],
         "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1230.json"
-    },
-    {
-        "name": "I2S-4MFlash.16.1229.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 24 09:07:45 2022-0500) <Sebastien>\n3144cf5 Change auth methods for pushing (Thu Nov 24 09:07:35 2022-0500) <Sebastien>\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>\ne0dd7a5 release (Thu Nov 17 16:20:16 2022-0800) <philippe44>\n6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 17 14:06:05 2022-0800) <philippe44>\n7e5f27a update cspot (Thu Nov 17 14:06:00 2022-0800) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1229.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21229.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1229.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21229.zip",
-        "release_details": {
-            "version": "2.1229",
-            "idf": "v4.3",
-            "platform": "I2S-4MFlash",
-            "branch": "master-v4.3",
-            "bitrate": "16"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1229-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1229-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1229-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1229-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1229-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1229.json"
-    },
-    {
-        "name": "I2S-4MFlash.16.1227.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\n9e66a82 Change call to web installer update (Tue Nov 22 09:35:34 2022-0500) <S\u00e9bastien>\n0e12f7f bypass protobuf generation for now - release (Sat Nov 19 19:01:47 2022-0800) <philippe44>\n5df5618 mpr121 table init - release (Sat Nov 19 18:28:33 2022-0800) <philippe44>\nf6630fa release (Thu Nov 17 17:26:12 2022-0800) <philippe44>\ne2df4b1 chmod on protoc (Thu Nov 17 17:20:20 2022-0800) <philippe44>\n3172576 update CMake file (Thu Nov 17 16:36:25 2022-0800) <philippe44>\ne0dd7a5 release (Thu Nov 17 16:20:16 2022-0800) <philippe44>\n6e4dd65 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (Thu Nov 17 14:06:05 2022-0800) <philippe44>\n7e5f27a update cspot (Thu Nov 17 14:06:00 2022-0800) <philippe44>\na81d0e0 fix opus & vorbis last decode (Thu Nov 10 23:05:17 2022-0800) <philippe44>\n6c524cd Implement mpr121 touch sensor capability to GPIO Expanders (#192) Co-authored-by: Andy Boff <gitdev@plek.me.uk> (Sat Oct 22 05:55:04 2022+0100) <Andy Boff>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1227.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21227.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1227.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21227.zip",
-        "release_details": {
-            "version": "2.1227",
-            "idf": "v4.3",
-            "platform": "I2S-4MFlash",
-            "branch": "master-v4.3",
-            "bitrate": "16"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1227-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1227.json"
     }
 ]

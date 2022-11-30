@@ -11,11 +11,12 @@
 //---------------------------------------------
 // 1. Basics
 //---------------------------------------------
-@import "~bootswatch/dist/Materia/variables";
-@import "~bootstrap/scss/bootstrap";
-@import "~bootswatch/dist/Materia/bootswatch";
 
-@import "fonts";
+@import "~bootswatch/dist/Cerulean/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/Cerulean/bootswatch";
+
+//@import "fonts";
 
 // If you do not want to load the customized bootstrap version, just use the following line.
 // @import "~bootstrap/scss/bootstrap";
@@ -24,8 +25,8 @@
 // 2. Page Layout
 //---------------------------------------------
 
-body {
-}
+// body {
+// }
 
 //---------------------------------------------
 // 3.Components

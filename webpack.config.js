@@ -2,6 +2,8 @@ import Dotenv from "dotenv-webpack"
 import path from "path"
 import MiniCssExtractPlugin from "mini-css-extract-plugin"
 import HtmlWebpackPlugin from "html-webpack-plugin"
+import webpack from 'webpack'
+
 // import CopyPlugin from "copy-webpack-plugin"
 
 export default {
@@ -35,6 +37,11 @@ export default {
           }
         }
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        loader: 'file-loader',
+        options: { name: '[name].[ext]', outputPath: 'fonts/', }
+      },
       // CSS, PostCSS, and Sass
       {
         test: /\.(scss|css)$/,
@@ -66,7 +73,7 @@ export default {
         test: /\.(jpg|jpeg|png|git|svg)$/i,
         type: "asset/resource",
       }
-    ],
+    ]
   },
 
   // Define used plugins
@@ -75,7 +82,11 @@ export default {
     new Dotenv({
       path: "./.env"
     }),
-
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+      
+    }),
     // Extracts CSS into separate files
     new MiniCssExtractPlugin({
       filename: "css/[name].css",

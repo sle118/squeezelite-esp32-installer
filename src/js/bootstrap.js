@@ -1,4 +1,5 @@
 import * as bootstrap from "bootstrap";
+import 'typeface-roboto'
 
 export const initBootstrap = function (config) {
   // Enabling tooltips

@@ -139,12 +139,28 @@ function render_firmware_content(platform, releases,index){
 }
 function populateTabs(json){
   Object.keys(json).forEach(function (platform,index) {
+
     $('#platforms_tabs')[0].append(render_platform_tab(platform,index==0?true:false));
     let firmware_content=render_firmware_content(platform,json[platform],index);
     $('#firmware_content')[0].append(firmware_content);
 
   });
 }
+function setManifests(json){
+  Object.keys(json).forEach(function (platform,index) {
+    try {
+      const release=json[platform].find(item => item.bits =='16');
+      const manifest_link=`artifacts/${release.manifest}`;
+      if(platform==="I2S-4MFlash"){
+        $('#button_web_install')[0].attributes['manifest'].value = manifest_link;
+      }
+      $(`#card${platform}_header`).attr('manifest',manifest_link);
+    } catch (error) {
+      console.error(`Unable to set manifest for platform ${platform}: ${error}`);
+    }
+  });
+}
+
 
 
 fetch('./artifacts/manifest')
@@ -158,7 +174,8 @@ fetch('./artifacts/manifest')
       }
       platforms[platform].push({ 'branch': element.release_details.branch, 'bits': element.release_details.bitrate, 'version': element.release_details.version, entry: platform + element.release_details.version.replace('.', '_') + '-' + element.release_details.bitrate, 'manifest': element.manifest_name, 'description': element.description })
     })
-    populateTabs(platforms);
+    //populateTabs(platforms);
+    setManifests(platforms);
     
 
     let cont = ['ci_'];
@@ -176,8 +193,43 @@ fetch('./artifacts/manifest')
        });
 
      });
-     $('#platforms_tabs  a[href="#tab_I2S-4MFlash"]')[0].click()
+     //$('#platforms_tabs  a[href="#tab_I2S-4MFlash"]')[0].click()
+     function unclickRadio() {
+      $("input:radio").prop("checked", false);
+    }
 
+  // code below pulled from https://write.corbpie.com/bootstrap-cards-as-selectable-radio-buttons/    
+    function clickRadio(inputElement) {
+        $("#" + inputElement).prop("checked", true);
+    }
+    function removeActive() {
+        $(".card-header").removeClass("active");
+        $(".card-header").removeClass("bg-primary")
+        $(".card-header").removeClass("text-white")
+        
+    }
+    function makeActive(element) {
+      const uielem=$("#" + element + "_header")
+      uielem.addClass("active");
+      uielem.addClass("bg-primary");
+      uielem.addClass("text-white");
+      $('#button_web_install')[0].attributes['manifest'].value = uielem[0].attributes['manifest'].value;
+      
+    }
+    $('input:radio').on("change",function () {//Clicking input radio
+        let radioClicked = $(this).attr('id');
+        unclickRadio();
+        removeActive();
+        clickRadio(radioClicked);
+        makeActive(radioClicked);
+    });
+    $(".card").on('click',function () {//Clicking the card
+        let inputElement = $(this).find('input[type=radio]').attr('id');
+        unclickRadio();
+        removeActive();
+        makeActive(inputElement);
+        clickRadio(inputElement);
+    });
     
     
     

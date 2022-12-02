@@ -1,5 +1,47 @@
 [
     {
+        "name": "SqueezeAmp.32.1254.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log\nfdd3477 fix offline again-release (2022-12-02 16:26 UTC-05:00) <S\u00e9bastien>\n77f486e fix offline icons - release (2022-12-02 15:31 UTC-05:00) <Sebastien L>\n60b1636 Fix protocol generation - release (2022-11-30 14:46 UTC-05:00) <Sebastien L>\n3fade26 build protobuf (2022-11-29 16:49 UTC-08:00) <philippe44>\n856303d Add GPIO config for Infrared on SqueezeAMP 3.20 (2022-11-29 13:58 UTC-08:00) <philippe44>\nb20c830 fix a few spotify key bugs and remove BTDM (2022-11-28 21:09 UTC-08:00) <philippe44>\n877f161 Activate new workflow (2022-11-28 13:57 UTC-05:00) <Sebastien L>\n646a220 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-28 10:45 UTC-05:00) <Sebastien>\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52 UTC-05:00) <Sebastien L>\n14f4caf Allow compiling out cspot (2022-11-28 09:22 UTC-05:00) <Sebastien L>\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13 UTC-05:00) <Sebastien L>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1254.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21254.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1254.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21254.zip",
+        "release_details": {
+            "version": "2.1254",
+            "idf": "v4.3",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1254-32-squeezelite.bin",
+                "offset": "0x150000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1254-32-recovery.bin",
+                "offset": "0x10000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1254-32-ota_data_initial.bin",
+                "offset": "0xd000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1254-32-bootloader.bin",
+                "offset": "0x1000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1254-32-partition-table.bin",
+                "offset": "0x8000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
+            }
+        ],
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1254-32.json"
+    },
+    {
         "name": "SqueezeAmp.32.1253.master-v4.3",
         "branch": "master-v4.3",
         "description": "### Revision Log\n77f486e fix offline icons - release (2022-12-02 15:31 UTC-05:00) <Sebastien L>\n60b1636 Fix protocol generation - release (2022-11-30 14:46 UTC-05:00) <Sebastien L>\n3fade26 build protobuf (2022-11-29 16:49 UTC-08:00) <philippe44>\n856303d Add GPIO config for Infrared on SqueezeAMP 3.20 (2022-11-29 13:58 UTC-08:00) <philippe44>\nb20c830 fix a few spotify key bugs and remove BTDM (2022-11-28 21:09 UTC-08:00) <philippe44>\n877f161 Activate new workflow (2022-11-28 13:57 UTC-05:00) <Sebastien L>\n646a220 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-28 10:45 UTC-05:00) <Sebastien>\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52 UTC-05:00) <Sebastien L>\n14f4caf Allow compiling out cspot (2022-11-28 09:22 UTC-05:00) <Sebastien L>\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13 UTC-05:00) <Sebastien L>\nd092ae0 Write version.txt file before build (2022-11-28 09:12 UTC-05:00) <Sebastien L>",
@@ -84,88 +126,46 @@
         "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1250-32.json"
     },
     {
-        "name": "SqueezeAmp.32.1241.master-v4.3",
+        "name": "SqueezeAmp.16.1254.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\r\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52:24-0500) <Sebastien L>\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1241.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21241.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1241.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21241.zip",
+        "description": "### Revision Log\nfdd3477 fix offline again-release (2022-12-02 16:26 UTC-05:00) <S\u00e9bastien>\n77f486e fix offline icons - release (2022-12-02 15:31 UTC-05:00) <Sebastien L>\n60b1636 Fix protocol generation - release (2022-11-30 14:46 UTC-05:00) <Sebastien L>\n3fade26 build protobuf (2022-11-29 16:49 UTC-08:00) <philippe44>\n856303d Add GPIO config for Infrared on SqueezeAMP 3.20 (2022-11-29 13:58 UTC-08:00) <philippe44>\nb20c830 fix a few spotify key bugs and remove BTDM (2022-11-28 21:09 UTC-08:00) <philippe44>\n877f161 Activate new workflow (2022-11-28 13:57 UTC-05:00) <Sebastien L>\n646a220 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-28 10:45 UTC-05:00) <Sebastien>\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52 UTC-05:00) <Sebastien L>\n14f4caf Allow compiling out cspot (2022-11-28 09:22 UTC-05:00) <Sebastien L>\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13 UTC-05:00) <Sebastien L>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1254.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21254.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1254.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21254.zip",
         "release_details": {
-            "version": "2.1241",
+            "version": "2.1254",
             "idf": "v4.3",
             "platform": "SqueezeAmp",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-32-squeezelite.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1254-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-32-recovery.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1254-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-32-ota_data_initial.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1254-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-32-bootloader.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1254-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-32-partition-table.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1254-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1241-32.json"
-    },
-    {
-        "name": "SqueezeAmp.32.1238.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>\r\n3144cf5 Change auth methods for pushing (2022-1124 09:07:35-0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1238.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21238.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1238.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21238.zip",
-        "release_details": {
-            "version": "2.1238",
-            "idf": "v4.3",
-            "platform": "SqueezeAmp",
-            "branch": "master-v4.3",
-            "bitrate": "32"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-32-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-32-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-32-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-32-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-32-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1238-32.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1254-16.json"
     },
     {
         "name": "SqueezeAmp.16.1253.master-v4.3",
@@ -252,88 +252,46 @@
         "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1250-16.json"
     },
     {
-        "name": "SqueezeAmp.16.1241.master-v4.3",
+        "name": "Muse.16.1254.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\r\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52:24-0500) <Sebastien L>\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1241.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21241.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1241.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21241.zip",
+        "description": "### Revision Log\nfdd3477 fix offline again-release (2022-12-02 16:26 UTC-05:00) <S\u00e9bastien>\n77f486e fix offline icons - release (2022-12-02 15:31 UTC-05:00) <Sebastien L>\n60b1636 Fix protocol generation - release (2022-11-30 14:46 UTC-05:00) <Sebastien L>\n3fade26 build protobuf (2022-11-29 16:49 UTC-08:00) <philippe44>\n856303d Add GPIO config for Infrared on SqueezeAMP 3.20 (2022-11-29 13:58 UTC-08:00) <philippe44>\nb20c830 fix a few spotify key bugs and remove BTDM (2022-11-28 21:09 UTC-08:00) <philippe44>\n877f161 Activate new workflow (2022-11-28 13:57 UTC-05:00) <Sebastien L>\n646a220 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-28 10:45 UTC-05:00) <Sebastien>\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52 UTC-05:00) <Sebastien L>\n14f4caf Allow compiling out cspot (2022-11-28 09:22 UTC-05:00) <Sebastien L>\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13 UTC-05:00) <Sebastien L>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1254.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21254.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1254.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21254.zip",
         "release_details": {
-            "version": "2.1241",
+            "version": "2.1254",
             "idf": "v4.3",
-            "platform": "SqueezeAmp",
+            "platform": "Muse",
             "branch": "master-v4.3",
             "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-16-squeezelite.bin",
+                "name": "master-v4.3-Muse-2.1254-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-16-recovery.bin",
+                "name": "master-v4.3-Muse-2.1254-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-16-ota_data_initial.bin",
+                "name": "master-v4.3-Muse-2.1254-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-16-bootloader.bin",
+                "name": "master-v4.3-Muse-2.1254-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1241-16-partition-table.bin",
+                "name": "master-v4.3-Muse-2.1254-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1241-16.json"
-    },
-    {
-        "name": "SqueezeAmp.16.1238.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>\r\n3144cf5 Change auth methods for pushing (2022-1124 09:07:35-0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1238.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21238.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1238.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21238.zip",
-        "release_details": {
-            "version": "2.1238",
-            "idf": "v4.3",
-            "platform": "SqueezeAmp",
-            "branch": "master-v4.3",
-            "bitrate": "16"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-16-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-16-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-16-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-16-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-SqueezeAmp-2.1238-16-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1238-16.json"
+        "manifest_name": "manifest-master-v4.3-Muse-2.1254-16.json"
     },
     {
         "name": "Muse.16.1253.master-v4.3",
@@ -420,88 +378,46 @@
         "manifest_name": "manifest-master-v4.3-Muse-2.1250-16.json"
     },
     {
-        "name": "Muse.16.1241.master-v4.3",
+        "name": "I2S-4MFlash.32.1254.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\r\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52:24-0500) <Sebastien L>\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1241.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21241.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1241.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21241.zip",
+        "description": "### Revision Log\nfdd3477 fix offline again-release (2022-12-02 16:26 UTC-05:00) <S\u00e9bastien>\n77f486e fix offline icons - release (2022-12-02 15:31 UTC-05:00) <Sebastien L>\n60b1636 Fix protocol generation - release (2022-11-30 14:46 UTC-05:00) <Sebastien L>\n3fade26 build protobuf (2022-11-29 16:49 UTC-08:00) <philippe44>\n856303d Add GPIO config for Infrared on SqueezeAMP 3.20 (2022-11-29 13:58 UTC-08:00) <philippe44>\nb20c830 fix a few spotify key bugs and remove BTDM (2022-11-28 21:09 UTC-08:00) <philippe44>\n877f161 Activate new workflow (2022-11-28 13:57 UTC-05:00) <Sebastien L>\n646a220 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-28 10:45 UTC-05:00) <Sebastien>\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52 UTC-05:00) <Sebastien L>\n14f4caf Allow compiling out cspot (2022-11-28 09:22 UTC-05:00) <Sebastien L>\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13 UTC-05:00) <Sebastien L>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1254.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21254.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1254.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21254.zip",
         "release_details": {
-            "version": "2.1241",
+            "version": "2.1254",
             "idf": "v4.3",
-            "platform": "Muse",
+            "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "16"
+            "bitrate": "32"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-Muse-2.1241-16-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-32-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1241-16-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-32-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1241-16-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-32-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1241-16-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-32-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1241-16-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-32-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-Muse-2.1241-16.json"
-    },
-    {
-        "name": "Muse.16.1238.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>\r\n3144cf5 Change auth methods for pushing (2022-1124 09:07:35-0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1238.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21238.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1238.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21238.zip",
-        "release_details": {
-            "version": "2.1238",
-            "idf": "v4.3",
-            "platform": "Muse",
-            "branch": "master-v4.3",
-            "bitrate": "16"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-Muse-2.1238-16-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-Muse-2.1238-16-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-Muse-2.1238-16-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-Muse-2.1238-16-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-Muse-2.1238-16-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-Muse-2.1238-16.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1254-32.json"
     },
     {
         "name": "I2S-4MFlash.32.1253.master-v4.3",
@@ -588,88 +504,46 @@
         "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1250-32.json"
     },
     {
-        "name": "I2S-4MFlash.32.1241.master-v4.3",
+        "name": "I2S-4MFlash.16.1254.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\r\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52:24-0500) <Sebastien L>\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1241.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21241.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1241.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21241.zip",
+        "description": "### Revision Log\nfdd3477 fix offline again-release (2022-12-02 16:26 UTC-05:00) <S\u00e9bastien>\n77f486e fix offline icons - release (2022-12-02 15:31 UTC-05:00) <Sebastien L>\n60b1636 Fix protocol generation - release (2022-11-30 14:46 UTC-05:00) <Sebastien L>\n3fade26 build protobuf (2022-11-29 16:49 UTC-08:00) <philippe44>\n856303d Add GPIO config for Infrared on SqueezeAMP 3.20 (2022-11-29 13:58 UTC-08:00) <philippe44>\nb20c830 fix a few spotify key bugs and remove BTDM (2022-11-28 21:09 UTC-08:00) <philippe44>\n877f161 Activate new workflow (2022-11-28 13:57 UTC-05:00) <Sebastien L>\n646a220 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-28 10:45 UTC-05:00) <Sebastien>\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52 UTC-05:00) <Sebastien L>\n14f4caf Allow compiling out cspot (2022-11-28 09:22 UTC-05:00) <Sebastien L>\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13 UTC-05:00) <Sebastien L>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1254.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21254.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1254.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21254.zip",
         "release_details": {
-            "version": "2.1241",
+            "version": "2.1254",
             "idf": "v4.3",
             "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-32-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-32-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-32-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-32-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-32-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1254-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1241-32.json"
-    },
-    {
-        "name": "I2S-4MFlash.32.1238.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>\r\n3144cf5 Change auth methods for pushing (2022-1124 09:07:35-0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1238.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21238.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1238.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21238.zip",
-        "release_details": {
-            "version": "2.1238",
-            "idf": "v4.3",
-            "platform": "I2S-4MFlash",
-            "branch": "master-v4.3",
-            "bitrate": "32"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1238-32-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1238-32-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1238-32-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1238-32-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1238-32-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1238-32.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1254-16.json"
     },
     {
         "name": "I2S-4MFlash.16.1253.master-v4.3",
@@ -754,47 +628,5 @@
             }
         ],
         "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1250-16.json"
-    },
-    {
-        "name": "I2S-4MFlash.16.1241.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\r\nf15f846 One more fix to the build system - skip actions (2022-11-28 09:52:24-0500) <Sebastien L>\r\n14f4caf Allow compiling out cspot (2022-11-28 09:22:46 -0500) <Sebastien L>\r\n46eb732 Merge remote-tracking branch 'origin/master-v4.3' into master-v4.3 (2022-11-28 09:13:02 -0500) <Sebastien L>\r\nd092ae0 Write version.txt file before build (2022-11-28 09:12:58 2022-0500) <Sebastien L>\r\n4a51efd Merge pull request #206 from wizmo2/display-spi-mode-v4.3 add shaffenmeisters PR and add web config (2022-11-26 19:06:06 -0800) <philippe44>\r\nc137544 fixed backlite (2022-11-26 20:20:48 2022-0500) <Wizmo2>\r\ne5eabca add shaffenmeisters PR and add web config (2022-11-25 19:26:21 -0500) <Wizmo2>\r\ndc66d9e Bluetooth Source mods (#204) - support legacy bt pairing extend bt source support (2022-11-25 13:55:01 -0500) <wizmo2>\r\n8462de1 Fix spotify configuration UI- release (2022-11-25 13:48:32 -0500) <Sebastien L>\r\n37f48d4 Align versionning in firmware - release (2022-11-24 10:07:13 -0500) <S\u00e9bastien>\r\n5e5c7e0 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2022-11-24 09:07:45 -0500) <Sebastien>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1241.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21241.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1241.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21241.zip",
-        "release_details": {
-            "version": "2.1241",
-            "idf": "v4.3",
-            "platform": "I2S-4MFlash",
-            "branch": "master-v4.3",
-            "bitrate": "16"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-16-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-16-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-16-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-16-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1241-16-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1241-16.json"
     }
 ]

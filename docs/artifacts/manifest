@@ -1,5 +1,47 @@
 [
     {
+        "name": "SqueezeAmp.32.1347.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log\n0be0a89 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-08-25 11:06 UTC-07:00) <philippe44>\n1d65bf9 add option to disable LMS - release (2023-08-25 11:05 UTC-07:00) <philippe44>\n6d51ffa Update README.md (2023-08-23 13:02 UTC-07:00) <philippe44>\n149c9d8 fix build for TWATCH2020 (2023-08-22 16:30 UTC-07:00) <philippe44>\neb45856 ancien SSD132x bug with non-inverted display (2023-08-16 01:06 UTC-07:00) <philippe44>\n5d24995 allocate led_vu TCB to gain a few bytes & set non-existing GPIO in default config for esp32s3 (2023-08-15 23:14 UTC-07:00) <philippe44>\n50543bf because if it can, it will (2023-08-15 12:44 UTC-07:00) <philippe44>\n8ee0812 fix plugin version (2023-08-15 11:41 UTC-07:00) <philippe44>\n7db73fe Delete repo.xml (2023-08-15 11:31 UTC-07:00) <philippe44>\n4047fa2 ledvu small changes & update plugin (2023-08-14 17:14 UTC-07:00) <philippe44>\naf8db69 Merge pull request #202 from wizmo2/led_visu-v4.3 Support for WS2812 RGB LED Strip v4.3 (2023-08-14 15:18 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1347.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21347.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1347.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21347.zip",
+        "release_details": {
+            "version": "2.1347",
+            "idf": "v4.3",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1347-32-squeezelite.bin",
+                "offset": "0x150000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1347-32-recovery.bin",
+                "offset": "0x10000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1347-32-ota_data_initial.bin",
+                "offset": "0xd000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1347-32-bootloader.bin",
+                "offset": "0x1000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1347-32-partition-table.bin",
+                "offset": "0x8000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
+            }
+        ],
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1347-32.json"
+    },
+    {
         "name": "SqueezeAmp.32.1336.master-v4.3",
         "branch": "master-v4.3",
         "description": "### Revision Log\nd7706e5 fix stdin redirection issue - release (2023-08-11 18:12 UTC-07:00) <philippe44>\nba15658 make sure to reboot upon all LMS server discover failures - release (2023-08-05 19:16 UTC-07:00) <philippe44>\ne14c815 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-08-04 22:05 UTC-07:00) <philippe44>\n0912034 fix typo - release (2023-08-04 22:05 UTC-07:00) <philippe44>\n2b24c0d Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-08-04 21:36 UTC-07:00) <philippe44>\n9f4839f fix ogg (opus & vorbis) playback - release (2023-08-04 21:35 UTC-07:00) <philippe44>\n7b9f8bc Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-07-26 13:19 UTC-07:00) <philippe44>\n232afb9 Bell catchup (2023-07-26 13:19 UTC-07:00) <philippe44>\n859efdb Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-07-25 22:28 UTC-07:00) <philippe44>\n8d4813c Bell/cspot catchup - release (2023-07-25 22:28 UTC-07:00) <philippe44>\n4cd2108 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-07-25 21:31 UTC-07:00) <philippe44>",
@@ -84,46 +126,46 @@
         "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1306-32.json"
     },
     {
-        "name": "SqueezeAmp.32.1299.master-v4.3",
+        "name": "SqueezeAmp.16.1347.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>\n7dbed7a trying to follow cspot... (2023-04-19 00:43 UTC+02:00) <philippe44>\ndc62afd backport typo - release (2023-04-18 18:19 UTC+02:00) <philippe44>\nf4388a8 proper solution to track \"plop\" - release (2023-04-17 19:34 UTC+02:00) <philippe44>\n4ee9878 fix no reboot on squeezelite connection loss (2023-04-16 17:16 UTC+02:00) <philippe44>\n025b5d8 Update README.md (2023-04-14 20:55 UTC-04:00) <S\u00e9bastien>\n0bebacc Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-12 14:44 UTC-04:00) <Sebastien L>\n7e8313b Merge readme with master (2023-04-12 14:44 UTC-04:00) <Sebastien L>\nce4cebd Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-09 10:31 UTC-07:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1299.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21299.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1299.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21299.zip",
+        "description": "### Revision Log\n0be0a89 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-08-25 11:06 UTC-07:00) <philippe44>\n1d65bf9 add option to disable LMS - release (2023-08-25 11:05 UTC-07:00) <philippe44>\n6d51ffa Update README.md (2023-08-23 13:02 UTC-07:00) <philippe44>\n149c9d8 fix build for TWATCH2020 (2023-08-22 16:30 UTC-07:00) <philippe44>\neb45856 ancien SSD132x bug with non-inverted display (2023-08-16 01:06 UTC-07:00) <philippe44>\n5d24995 allocate led_vu TCB to gain a few bytes & set non-existing GPIO in default config for esp32s3 (2023-08-15 23:14 UTC-07:00) <philippe44>\n50543bf because if it can, it will (2023-08-15 12:44 UTC-07:00) <philippe44>\n8ee0812 fix plugin version (2023-08-15 11:41 UTC-07:00) <philippe44>\n7db73fe Delete repo.xml (2023-08-15 11:31 UTC-07:00) <philippe44>\n4047fa2 ledvu small changes & update plugin (2023-08-14 17:14 UTC-07:00) <philippe44>\naf8db69 Merge pull request #202 from wizmo2/led_visu-v4.3 Support for WS2812 RGB LED Strip v4.3 (2023-08-14 15:18 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1347.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21347.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1347.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21347.zip",
         "release_details": {
-            "version": "2.1299",
+            "version": "2.1347",
             "idf": "v4.3",
             "platform": "SqueezeAmp",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-32-squeezelite.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1347-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-32-recovery.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1347-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-32-ota_data_initial.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1347-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-32-bootloader.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1347-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-32-partition-table.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1347-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1299-32.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1347-16.json"
     },
     {
         "name": "SqueezeAmp.16.1336.master-v4.3",
@@ -210,46 +252,46 @@
         "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1306-16.json"
     },
     {
-        "name": "SqueezeAmp.16.1299.master-v4.3",
+        "name": "Muse.16.1347.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>\n7dbed7a trying to follow cspot... (2023-04-19 00:43 UTC+02:00) <philippe44>\ndc62afd backport typo - release (2023-04-18 18:19 UTC+02:00) <philippe44>\nf4388a8 proper solution to track \"plop\" - release (2023-04-17 19:34 UTC+02:00) <philippe44>\n4ee9878 fix no reboot on squeezelite connection loss (2023-04-16 17:16 UTC+02:00) <philippe44>\n025b5d8 Update README.md (2023-04-14 20:55 UTC-04:00) <S\u00e9bastien>\n0bebacc Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-12 14:44 UTC-04:00) <Sebastien L>\n7e8313b Merge readme with master (2023-04-12 14:44 UTC-04:00) <Sebastien L>\nce4cebd Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-09 10:31 UTC-07:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1299.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21299.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1299.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21299.zip",
+        "description": "### Revision Log\n0be0a89 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-08-25 11:06 UTC-07:00) <philippe44>\n1d65bf9 add option to disable LMS - release (2023-08-25 11:05 UTC-07:00) <philippe44>\n6d51ffa Update README.md (2023-08-23 13:02 UTC-07:00) <philippe44>\n149c9d8 fix build for TWATCH2020 (2023-08-22 16:30 UTC-07:00) <philippe44>\neb45856 ancien SSD132x bug with non-inverted display (2023-08-16 01:06 UTC-07:00) <philippe44>\n5d24995 allocate led_vu TCB to gain a few bytes & set non-existing GPIO in default config for esp32s3 (2023-08-15 23:14 UTC-07:00) <philippe44>\n50543bf because if it can, it will (2023-08-15 12:44 UTC-07:00) <philippe44>\n8ee0812 fix plugin version (2023-08-15 11:41 UTC-07:00) <philippe44>\n7db73fe Delete repo.xml (2023-08-15 11:31 UTC-07:00) <philippe44>\n4047fa2 ledvu small changes & update plugin (2023-08-14 17:14 UTC-07:00) <philippe44>\naf8db69 Merge pull request #202 from wizmo2/led_visu-v4.3 Support for WS2812 RGB LED Strip v4.3 (2023-08-14 15:18 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1347.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21347.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1347.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21347.zip",
         "release_details": {
-            "version": "2.1299",
+            "version": "2.1347",
             "idf": "v4.3",
-            "platform": "SqueezeAmp",
+            "platform": "Muse",
             "branch": "master-v4.3",
             "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-16-squeezelite.bin",
+                "name": "master-v4.3-Muse-2.1347-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-16-recovery.bin",
+                "name": "master-v4.3-Muse-2.1347-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-16-ota_data_initial.bin",
+                "name": "master-v4.3-Muse-2.1347-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-16-bootloader.bin",
+                "name": "master-v4.3-Muse-2.1347-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1299-16-partition-table.bin",
+                "name": "master-v4.3-Muse-2.1347-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1299-16.json"
+        "manifest_name": "manifest-master-v4.3-Muse-2.1347-16.json"
     },
     {
         "name": "Muse.16.1336.master-v4.3",
@@ -336,46 +378,46 @@
         "manifest_name": "manifest-master-v4.3-Muse-2.1306-16.json"
     },
     {
-        "name": "Muse.16.1299.master-v4.3",
+        "name": "I2S-4MFlash.32.1347.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>\n7dbed7a trying to follow cspot... (2023-04-19 00:43 UTC+02:00) <philippe44>\ndc62afd backport typo - release (2023-04-18 18:19 UTC+02:00) <philippe44>\nf4388a8 proper solution to track \"plop\" - release (2023-04-17 19:34 UTC+02:00) <philippe44>\n4ee9878 fix no reboot on squeezelite connection loss (2023-04-16 17:16 UTC+02:00) <philippe44>\n025b5d8 Update README.md (2023-04-14 20:55 UTC-04:00) <S\u00e9bastien>\n0bebacc Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-12 14:44 UTC-04:00) <Sebastien L>\n7e8313b Merge readme with master (2023-04-12 14:44 UTC-04:00) <Sebastien L>\nce4cebd Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-09 10:31 UTC-07:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1299.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21299.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1299.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21299.zip",
+        "description": "### Revision Log\n0be0a89 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-08-25 11:06 UTC-07:00) <philippe44>\n1d65bf9 add option to disable LMS - release (2023-08-25 11:05 UTC-07:00) <philippe44>\n6d51ffa Update README.md (2023-08-23 13:02 UTC-07:00) <philippe44>\n149c9d8 fix build for TWATCH2020 (2023-08-22 16:30 UTC-07:00) <philippe44>\neb45856 ancien SSD132x bug with non-inverted display (2023-08-16 01:06 UTC-07:00) <philippe44>\n5d24995 allocate led_vu TCB to gain a few bytes & set non-existing GPIO in default config for esp32s3 (2023-08-15 23:14 UTC-07:00) <philippe44>\n50543bf because if it can, it will (2023-08-15 12:44 UTC-07:00) <philippe44>\n8ee0812 fix plugin version (2023-08-15 11:41 UTC-07:00) <philippe44>\n7db73fe Delete repo.xml (2023-08-15 11:31 UTC-07:00) <philippe44>\n4047fa2 ledvu small changes & update plugin (2023-08-14 17:14 UTC-07:00) <philippe44>\naf8db69 Merge pull request #202 from wizmo2/led_visu-v4.3 Support for WS2812 RGB LED Strip v4.3 (2023-08-14 15:18 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1347.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21347.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1347.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21347.zip",
         "release_details": {
-            "version": "2.1299",
+            "version": "2.1347",
             "idf": "v4.3",
-            "platform": "Muse",
+            "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "16"
+            "bitrate": "32"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-Muse-2.1299-16-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-32-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1299-16-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-32-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1299-16-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-32-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1299-16-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-32-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1299-16-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-32-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-Muse-2.1299-16.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1347-32.json"
     },
     {
         "name": "I2S-4MFlash.32.1336.master-v4.3",
@@ -462,46 +504,46 @@
         "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1306-32.json"
     },
     {
-        "name": "I2S-4MFlash.32.1299.master-v4.3",
+        "name": "I2S-4MFlash.16.1347.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>\n7dbed7a trying to follow cspot... (2023-04-19 00:43 UTC+02:00) <philippe44>\ndc62afd backport typo - release (2023-04-18 18:19 UTC+02:00) <philippe44>\nf4388a8 proper solution to track \"plop\" - release (2023-04-17 19:34 UTC+02:00) <philippe44>\n4ee9878 fix no reboot on squeezelite connection loss (2023-04-16 17:16 UTC+02:00) <philippe44>\n025b5d8 Update README.md (2023-04-14 20:55 UTC-04:00) <S\u00e9bastien>\n0bebacc Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-12 14:44 UTC-04:00) <Sebastien L>\n7e8313b Merge readme with master (2023-04-12 14:44 UTC-04:00) <Sebastien L>\nce4cebd Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-09 10:31 UTC-07:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1299.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21299.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1299.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21299.zip",
+        "description": "### Revision Log\n0be0a89 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-08-25 11:06 UTC-07:00) <philippe44>\n1d65bf9 add option to disable LMS - release (2023-08-25 11:05 UTC-07:00) <philippe44>\n6d51ffa Update README.md (2023-08-23 13:02 UTC-07:00) <philippe44>\n149c9d8 fix build for TWATCH2020 (2023-08-22 16:30 UTC-07:00) <philippe44>\neb45856 ancien SSD132x bug with non-inverted display (2023-08-16 01:06 UTC-07:00) <philippe44>\n5d24995 allocate led_vu TCB to gain a few bytes & set non-existing GPIO in default config for esp32s3 (2023-08-15 23:14 UTC-07:00) <philippe44>\n50543bf because if it can, it will (2023-08-15 12:44 UTC-07:00) <philippe44>\n8ee0812 fix plugin version (2023-08-15 11:41 UTC-07:00) <philippe44>\n7db73fe Delete repo.xml (2023-08-15 11:31 UTC-07:00) <philippe44>\n4047fa2 ledvu small changes & update plugin (2023-08-14 17:14 UTC-07:00) <philippe44>\naf8db69 Merge pull request #202 from wizmo2/led_visu-v4.3 Support for WS2812 RGB LED Strip v4.3 (2023-08-14 15:18 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1347.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21347.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1347.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21347.zip",
         "release_details": {
-            "version": "2.1299",
+            "version": "2.1347",
             "idf": "v4.3",
             "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-32-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-32-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-32-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-32-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-32-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1347-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1299-32.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1347-16.json"
     },
     {
         "name": "I2S-4MFlash.16.1336.master-v4.3",
@@ -586,47 +628,5 @@
             }
         ],
         "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1306-16.json"
-    },
-    {
-        "name": "I2S-4MFlash.16.1299.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>\n7dbed7a trying to follow cspot... (2023-04-19 00:43 UTC+02:00) <philippe44>\ndc62afd backport typo - release (2023-04-18 18:19 UTC+02:00) <philippe44>\nf4388a8 proper solution to track \"plop\" - release (2023-04-17 19:34 UTC+02:00) <philippe44>\n4ee9878 fix no reboot on squeezelite connection loss (2023-04-16 17:16 UTC+02:00) <philippe44>\n025b5d8 Update README.md (2023-04-14 20:55 UTC-04:00) <S\u00e9bastien>\n0bebacc Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-12 14:44 UTC-04:00) <Sebastien L>\n7e8313b Merge readme with master (2023-04-12 14:44 UTC-04:00) <Sebastien L>\nce4cebd Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-09 10:31 UTC-07:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1299.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21299.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1299.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21299.zip",
-        "release_details": {
-            "version": "2.1299",
-            "idf": "v4.3",
-            "platform": "I2S-4MFlash",
-            "branch": "master-v4.3",
-            "bitrate": "16"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-16-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-16-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-16-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-16-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1299-16-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1299-16.json"
     }
 ]

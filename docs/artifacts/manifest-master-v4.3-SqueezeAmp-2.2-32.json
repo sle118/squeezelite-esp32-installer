@@ -1,6 +1,6 @@
 {
-    "name": "SqueezeAmp-16",
-    "version": "2.1296",
+    "name": "SqueezeAmp-32",
+    "version": "2.2",
     "home_assistant_domain": "slim_player",
     "funding_url": "https://esphome.io/guides/supporters.html",
     "new_install_prompt_erase": true,
@@ -10,27 +10,27 @@
             "chipFamily": "ESP32",
             "parts": [
                 {
-                    "path": "master-v4.3-SqueezeAmp-2.1296-16-squeezelite.bin",
+                    "path": "master-v4.3-SqueezeAmp-2.2-32-squeezelite.bin",
                     "offset": "0x150000"
                 },
                 {
-                    "path": "master-v4.3-SqueezeAmp-2.1296-16-recovery.bin",
+                    "path": "master-v4.3-SqueezeAmp-2.2-32-recovery.bin",
                     "offset": "0x10000"
                 },
                 {
-                    "path": "master-v4.3-SqueezeAmp-2.1296-16-ota_data_initial.bin",
+                    "path": "master-v4.3-SqueezeAmp-2.2-32-ota_data_initial.bin",
                     "offset": "0xd000"
                 },
                 {
-                    "path": "master-v4.3-SqueezeAmp-2.1296-16-bootloader.bin",
+                    "path": "master-v4.3-SqueezeAmp-2.2-32-bootloader.bin",
                     "offset": "0x1000"
                 },
                 {
-                    "path": "master-v4.3-SqueezeAmp-2.1296-16-partition-table.bin",
+                    "path": "master-v4.3-SqueezeAmp-2.2-32-partition-table.bin",
                     "offset": "0x8000"
                 }
             ]
         }
     ],
-    "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1296-16.json"
+    "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.2-32.json"
 }

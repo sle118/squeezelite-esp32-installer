@@ -1,5 +1,47 @@
 [
     {
+        "name": "SqueezeAmp.32.1530.master-v4.3",
+        "branch": "master-v4.3",
+        "description": "### Revision Log\nc148cd1 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-09-10 22:27 UTC-07:00) <philippe44>\n38fb90d pseudo-idle task requires more stack (cJSON) - release (2023-09-10 22:27 UTC-07:00) <philippe44>\nadd6ff3 Merge pull request #295 from urknall/master-v4.3 typo (2023-09-09 15:58 UTC-07:00) <philippe44>\nae2ad85 fix another ancient bug with sync start time (visible with AirPlay and SPDIF, but impacts all) (2023-09-09 15:57 UTC-07:00) <philippe44>\na72f471 ancient AirPlay bug : passing thread context in mutex destroy (2023-09-08 22:35 UTC-07:00) <philippe44>\nf110833 typo (2023-09-08 21:32 UTC+02:00) <urknall>\nd10d12a ES8388 i2c addresses (2023-09-05 17:11 UTC-07:00) <philippe44>\n956392e remove i2s.c0 (2023-09-05 11:51 UTC-07:00) <philippe44>\nf4ddc45 Update README.md (2023-09-04 18:35 UTC-07:00) <philippe44>\n926c567 full i2s fix & loudness limited log (2023-09-04 16:06 UTC-07:00) <philippe44>\n0b077b5 fix spdif+spotify stuttering and refactor stats => add pseudo_idle chained callbacks (2023-09-03 17:34 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1530.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21530.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1530.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21530.zip",
+        "release_details": {
+            "version": "2.1530",
+            "idf": "v4.3",
+            "platform": "SqueezeAmp",
+            "branch": "master-v4.3",
+            "bitrate": "32"
+        },
+        "bin_files": [
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1530-32-squeezelite.bin",
+                "offset": "0x150000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1530-32-recovery.bin",
+                "offset": "0x10000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1530-32-ota_data_initial.bin",
+                "offset": "0xd000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1530-32-bootloader.bin",
+                "offset": "0x1000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
+            },
+            {
+                "name": "master-v4.3-SqueezeAmp-2.1530-32-partition-table.bin",
+                "offset": "0x8000",
+                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
+            }
+        ],
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1530-32.json"
+    },
+    {
         "name": "SqueezeAmp.32.1529.master-v4.3",
         "branch": "master-v4.3",
         "description": "### Revision Log\nadd6ff3 Merge pull request #295 from urknall/master-v4.3 typo (2023-09-09 15:58 UTC-07:00) <philippe44>\nae2ad85 fix another ancient bug with sync start time (visible with AirPlay and SPDIF, but impacts all) (2023-09-09 15:57 UTC-07:00) <philippe44>\na72f471 ancient AirPlay bug : passing thread context in mutex destroy (2023-09-08 22:35 UTC-07:00) <philippe44>\nf110833 typo (2023-09-08 21:32 UTC+02:00) <urknall>\nd10d12a ES8388 i2c addresses (2023-09-05 17:11 UTC-07:00) <philippe44>\n956392e remove i2s.c0 (2023-09-05 11:51 UTC-07:00) <philippe44>\nf4ddc45 Update README.md (2023-09-04 18:35 UTC-07:00) <philippe44>\n926c567 full i2s fix & loudness limited log (2023-09-04 16:06 UTC-07:00) <philippe44>\n0b077b5 fix spdif+spotify stuttering and refactor stats => add pseudo_idle chained callbacks (2023-09-03 17:34 UTC-07:00) <philippe44>\n45cae64 Update README.md (2023-09-03 17:31 UTC-07:00) <philippe44>\n7c1a108 as equalizer parameter change produced a small glitch, do not update these if volume has not changes (2023-09-01 21:44 UTC-07:00) <philippe44>",
@@ -84,46 +126,46 @@
         "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1501-32.json"
     },
     {
-        "name": "SqueezeAmp.32.1306.master-v4.3",
+        "name": "SqueezeAmp.16.1530.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\nef692b1 more aggressive handling of Spotify loudness war... - release (2023-05-12 21:16 UTC+02:00) <philippe44>\n93a2c09 synchronizing with host versions (2023-05-10 16:45 UTC+02:00) <philippe44>\nbc4e56e unify Host and Embedded versions (2023-05-10 12:26 UTC+02:00) <philippe44>\nfa91879 more missing stuff (2023-05-07 11:50 UTC+02:00) <philippe44>\n2f9b506 include typos (2023-05-07 00:28 UTC+02:00) <philippe44>\n806cb05 add missing files, removing un-nedded ones (2023-05-07 00:12 UTC+02:00) <philippe44>\nff663a2 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-05-06 23:50 UTC+02:00) <philippe44>\n8bad480 new cspot/bell (2023-05-06 23:50 UTC+02:00) <philippe44>\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1306.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21306.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.32.1306.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-32-21306.zip",
+        "description": "### Revision Log\nc148cd1 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-09-10 22:27 UTC-07:00) <philippe44>\n38fb90d pseudo-idle task requires more stack (cJSON) - release (2023-09-10 22:27 UTC-07:00) <philippe44>\nadd6ff3 Merge pull request #295 from urknall/master-v4.3 typo (2023-09-09 15:58 UTC-07:00) <philippe44>\nae2ad85 fix another ancient bug with sync start time (visible with AirPlay and SPDIF, but impacts all) (2023-09-09 15:57 UTC-07:00) <philippe44>\na72f471 ancient AirPlay bug : passing thread context in mutex destroy (2023-09-08 22:35 UTC-07:00) <philippe44>\nf110833 typo (2023-09-08 21:32 UTC+02:00) <urknall>\nd10d12a ES8388 i2c addresses (2023-09-05 17:11 UTC-07:00) <philippe44>\n956392e remove i2s.c0 (2023-09-05 11:51 UTC-07:00) <philippe44>\nf4ddc45 Update README.md (2023-09-04 18:35 UTC-07:00) <philippe44>\n926c567 full i2s fix & loudness limited log (2023-09-04 16:06 UTC-07:00) <philippe44>\n0b077b5 fix spdif+spotify stuttering and refactor stats => add pseudo_idle chained callbacks (2023-09-03 17:34 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1530.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21530.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1530.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21530.zip",
         "release_details": {
-            "version": "2.1306",
+            "version": "2.1530",
             "idf": "v4.3",
             "platform": "SqueezeAmp",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-32-squeezelite.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1530-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-32-recovery.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1530-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-32-ota_data_initial.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1530-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-32-bootloader.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1530-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-32-partition-table.bin",
+                "name": "master-v4.3-SqueezeAmp-2.1530-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1306-32.json"
+        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1530-16.json"
     },
     {
         "name": "SqueezeAmp.16.1529.master-v4.3",
@@ -210,46 +252,46 @@
         "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1501-16.json"
     },
     {
-        "name": "SqueezeAmp.16.1306.master-v4.3",
+        "name": "Muse.16.1530.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\nef692b1 more aggressive handling of Spotify loudness war... - release (2023-05-12 21:16 UTC+02:00) <philippe44>\n93a2c09 synchronizing with host versions (2023-05-10 16:45 UTC+02:00) <philippe44>\nbc4e56e unify Host and Embedded versions (2023-05-10 12:26 UTC+02:00) <philippe44>\nfa91879 more missing stuff (2023-05-07 11:50 UTC+02:00) <philippe44>\n2f9b506 include typos (2023-05-07 00:28 UTC+02:00) <philippe44>\n806cb05 add missing files, removing un-nedded ones (2023-05-07 00:12 UTC+02:00) <philippe44>\nff663a2 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-05-06 23:50 UTC+02:00) <philippe44>\n8bad480 new cspot/bell (2023-05-06 23:50 UTC+02:00) <philippe44>\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1306.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21306.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/SqueezeAmp.16.1306.master-v4.3/squeezelite-esp32-master-v4.3-SqueezeAmp-16-21306.zip",
+        "description": "### Revision Log\nc148cd1 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-09-10 22:27 UTC-07:00) <philippe44>\n38fb90d pseudo-idle task requires more stack (cJSON) - release (2023-09-10 22:27 UTC-07:00) <philippe44>\nadd6ff3 Merge pull request #295 from urknall/master-v4.3 typo (2023-09-09 15:58 UTC-07:00) <philippe44>\nae2ad85 fix another ancient bug with sync start time (visible with AirPlay and SPDIF, but impacts all) (2023-09-09 15:57 UTC-07:00) <philippe44>\na72f471 ancient AirPlay bug : passing thread context in mutex destroy (2023-09-08 22:35 UTC-07:00) <philippe44>\nf110833 typo (2023-09-08 21:32 UTC+02:00) <urknall>\nd10d12a ES8388 i2c addresses (2023-09-05 17:11 UTC-07:00) <philippe44>\n956392e remove i2s.c0 (2023-09-05 11:51 UTC-07:00) <philippe44>\nf4ddc45 Update README.md (2023-09-04 18:35 UTC-07:00) <philippe44>\n926c567 full i2s fix & loudness limited log (2023-09-04 16:06 UTC-07:00) <philippe44>\n0b077b5 fix spdif+spotify stuttering and refactor stats => add pseudo_idle chained callbacks (2023-09-03 17:34 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1530.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21530.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1530.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21530.zip",
         "release_details": {
-            "version": "2.1306",
+            "version": "2.1530",
             "idf": "v4.3",
-            "platform": "SqueezeAmp",
+            "platform": "Muse",
             "branch": "master-v4.3",
             "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-16-squeezelite.bin",
+                "name": "master-v4.3-Muse-2.1530-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-16-recovery.bin",
+                "name": "master-v4.3-Muse-2.1530-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-16-ota_data_initial.bin",
+                "name": "master-v4.3-Muse-2.1530-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-16-bootloader.bin",
+                "name": "master-v4.3-Muse-2.1530-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-SqueezeAmp-2.1306-16-partition-table.bin",
+                "name": "master-v4.3-Muse-2.1530-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-SqueezeAmp-2.1306-16.json"
+        "manifest_name": "manifest-master-v4.3-Muse-2.1530-16.json"
     },
     {
         "name": "Muse.16.1529.master-v4.3",
@@ -336,46 +378,46 @@
         "manifest_name": "manifest-master-v4.3-Muse-2.1501-16.json"
     },
     {
-        "name": "Muse.16.1306.master-v4.3",
+        "name": "I2S-4MFlash.32.1530.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\nef692b1 more aggressive handling of Spotify loudness war... - release (2023-05-12 21:16 UTC+02:00) <philippe44>\n93a2c09 synchronizing with host versions (2023-05-10 16:45 UTC+02:00) <philippe44>\nbc4e56e unify Host and Embedded versions (2023-05-10 12:26 UTC+02:00) <philippe44>\nfa91879 more missing stuff (2023-05-07 11:50 UTC+02:00) <philippe44>\n2f9b506 include typos (2023-05-07 00:28 UTC+02:00) <philippe44>\n806cb05 add missing files, removing un-nedded ones (2023-05-07 00:12 UTC+02:00) <philippe44>\nff663a2 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-05-06 23:50 UTC+02:00) <philippe44>\n8bad480 new cspot/bell (2023-05-06 23:50 UTC+02:00) <philippe44>\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1306.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21306.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/Muse.16.1306.master-v4.3/squeezelite-esp32-master-v4.3-Muse-16-21306.zip",
+        "description": "### Revision Log\nc148cd1 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-09-10 22:27 UTC-07:00) <philippe44>\n38fb90d pseudo-idle task requires more stack (cJSON) - release (2023-09-10 22:27 UTC-07:00) <philippe44>\nadd6ff3 Merge pull request #295 from urknall/master-v4.3 typo (2023-09-09 15:58 UTC-07:00) <philippe44>\nae2ad85 fix another ancient bug with sync start time (visible with AirPlay and SPDIF, but impacts all) (2023-09-09 15:57 UTC-07:00) <philippe44>\na72f471 ancient AirPlay bug : passing thread context in mutex destroy (2023-09-08 22:35 UTC-07:00) <philippe44>\nf110833 typo (2023-09-08 21:32 UTC+02:00) <urknall>\nd10d12a ES8388 i2c addresses (2023-09-05 17:11 UTC-07:00) <philippe44>\n956392e remove i2s.c0 (2023-09-05 11:51 UTC-07:00) <philippe44>\nf4ddc45 Update README.md (2023-09-04 18:35 UTC-07:00) <philippe44>\n926c567 full i2s fix & loudness limited log (2023-09-04 16:06 UTC-07:00) <philippe44>\n0b077b5 fix spdif+spotify stuttering and refactor stats => add pseudo_idle chained callbacks (2023-09-03 17:34 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1530.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21530.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1530.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21530.zip",
         "release_details": {
-            "version": "2.1306",
+            "version": "2.1530",
             "idf": "v4.3",
-            "platform": "Muse",
+            "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "16"
+            "bitrate": "32"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-Muse-2.1306-16-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-32-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1306-16-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-32-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1306-16-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-32-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1306-16-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-32-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-Muse-2.1306-16-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-32-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-Muse-2.1306-16.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1530-32.json"
     },
     {
         "name": "I2S-4MFlash.32.1529.master-v4.3",
@@ -462,46 +504,46 @@
         "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1501-32.json"
     },
     {
-        "name": "I2S-4MFlash.32.1306.master-v4.3",
+        "name": "I2S-4MFlash.16.1530.master-v4.3",
         "branch": "master-v4.3",
-        "description": "### Revision Log\nef692b1 more aggressive handling of Spotify loudness war... - release (2023-05-12 21:16 UTC+02:00) <philippe44>\n93a2c09 synchronizing with host versions (2023-05-10 16:45 UTC+02:00) <philippe44>\nbc4e56e unify Host and Embedded versions (2023-05-10 12:26 UTC+02:00) <philippe44>\nfa91879 more missing stuff (2023-05-07 11:50 UTC+02:00) <philippe44>\n2f9b506 include typos (2023-05-07 00:28 UTC+02:00) <philippe44>\n806cb05 add missing files, removing un-nedded ones (2023-05-07 00:12 UTC+02:00) <philippe44>\nff663a2 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-05-06 23:50 UTC+02:00) <philippe44>\n8bad480 new cspot/bell (2023-05-06 23:50 UTC+02:00) <philippe44>\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1306.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21306.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.32.1306.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-32-21306.zip",
+        "description": "### Revision Log\nc148cd1 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-09-10 22:27 UTC-07:00) <philippe44>\n38fb90d pseudo-idle task requires more stack (cJSON) - release (2023-09-10 22:27 UTC-07:00) <philippe44>\nadd6ff3 Merge pull request #295 from urknall/master-v4.3 typo (2023-09-09 15:58 UTC-07:00) <philippe44>\nae2ad85 fix another ancient bug with sync start time (visible with AirPlay and SPDIF, but impacts all) (2023-09-09 15:57 UTC-07:00) <philippe44>\na72f471 ancient AirPlay bug : passing thread context in mutex destroy (2023-09-08 22:35 UTC-07:00) <philippe44>\nf110833 typo (2023-09-08 21:32 UTC+02:00) <urknall>\nd10d12a ES8388 i2c addresses (2023-09-05 17:11 UTC-07:00) <philippe44>\n956392e remove i2s.c0 (2023-09-05 11:51 UTC-07:00) <philippe44>\nf4ddc45 Update README.md (2023-09-04 18:35 UTC-07:00) <philippe44>\n926c567 full i2s fix & loudness limited log (2023-09-04 16:06 UTC-07:00) <philippe44>\n0b077b5 fix spdif+spotify stuttering and refactor stats => add pseudo_idle chained callbacks (2023-09-03 17:34 UTC-07:00) <philippe44>",
+        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1530.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21530.bin",
+        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1530.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21530.zip",
         "release_details": {
-            "version": "2.1306",
+            "version": "2.1530",
             "idf": "v4.3",
             "platform": "I2S-4MFlash",
             "branch": "master-v4.3",
-            "bitrate": "32"
+            "bitrate": "16"
         },
         "bin_files": [
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-32-squeezelite.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-16-squeezelite.bin",
                 "offset": "0x150000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-32-recovery.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-16-recovery.bin",
                 "offset": "0x10000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-32-ota_data_initial.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-16-ota_data_initial.bin",
                 "offset": "0xd000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-32-bootloader.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-16-bootloader.bin",
                 "offset": "0x1000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
             },
             {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-32-partition-table.bin",
+                "name": "master-v4.3-I2S-4MFlash-2.1530-16-partition-table.bin",
                 "offset": "0x8000",
                 "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
             }
         ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1306-32.json"
+        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1530-16.json"
     },
     {
         "name": "I2S-4MFlash.16.1529.master-v4.3",
@@ -586,47 +628,5 @@
             }
         ],
         "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1501-16.json"
-    },
-    {
-        "name": "I2S-4MFlash.16.1306.master-v4.3",
-        "branch": "master-v4.3",
-        "description": "### Revision Log\nef692b1 more aggressive handling of Spotify loudness war... - release (2023-05-12 21:16 UTC+02:00) <philippe44>\n93a2c09 synchronizing with host versions (2023-05-10 16:45 UTC+02:00) <philippe44>\nbc4e56e unify Host and Embedded versions (2023-05-10 12:26 UTC+02:00) <philippe44>\nfa91879 more missing stuff (2023-05-07 11:50 UTC+02:00) <philippe44>\n2f9b506 include typos (2023-05-07 00:28 UTC+02:00) <philippe44>\n806cb05 add missing files, removing un-nedded ones (2023-05-07 00:12 UTC+02:00) <philippe44>\nff663a2 Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-05-06 23:50 UTC+02:00) <philippe44>\n8bad480 new cspot/bell (2023-05-06 23:50 UTC+02:00) <philippe44>\ne0e7e71 fix vorbis & opus never ending - release (2023-04-20 00:23 UTC+02:00) <philippe44>\nf0527f7 fix compile error (2023-04-19 12:39 UTC+02:00) <philippe44>\n3ecc09b Merge branch 'master-v4.3' of https://github.com/sle118/squeezelite-esp32 into master-v4.3 (2023-04-19 00:43 UTC+02:00) <philippe44>",
-        "url": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1306.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21306.bin",
-        "zipfile": "https://github.com/sle118/squeezelite-esp32/releases/download/I2S-4MFlash.16.1306.master-v4.3/squeezelite-esp32-master-v4.3-I2S-4MFlash-16-21306.zip",
-        "release_details": {
-            "version": "2.1306",
-            "idf": "v4.3",
-            "platform": "I2S-4MFlash",
-            "branch": "master-v4.3",
-            "bitrate": "16"
-        },
-        "bin_files": [
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-16-squeezelite.bin",
-                "offset": "0x150000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/squeezelite.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-16-recovery.bin",
-                "offset": "0x10000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/recovery.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-16-ota_data_initial.bin",
-                "offset": "0xd000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/ota_data_initial.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-16-bootloader.bin",
-                "offset": "0x1000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/bootloader/bootloader.bin"
-            },
-            {
-                "name": "master-v4.3-I2S-4MFlash-2.1306-16-partition-table.bin",
-                "offset": "0x8000",
-                "artifact_relpath": "../__w/squeezelite-esp32/squeezelite-esp32/build/partition_table/partition-table.bin"
-            }
-        ],
-        "manifest_name": "manifest-master-v4.3-I2S-4MFlash-2.1306-16.json"
     }
 ]
